@@ -1,0 +1,70 @@
+/* =Reset CSS (v2.0) http://meyerweb.com/eric/tools/css/reset/
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body{font-family:helvetica,sans-serif,arial;
+background:#E0E0E0;
+color:#cd00de;
+}
+#conteneur{max-width:960px; margin: 0 auto 0 auto;background:#F0F0F0;}
+#bandeau{max-width:960px;height:100px;background:#8E9191;}
+#innerContent:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+section {
+	width: 75%;
+	float: left;
+}
+h1{max-width:100%;margin:0; text-align:center; padding:10px;font-size:24px; color:#383838;}
+nav ul{margin:0;text-align:center;padding:
+ color:#5C5E5E;}
+nav li{display:inline-block;text-decoration:none;
+width:20%;
+height:30%;
+list-style-type:none;}
+nav ul li a {
+text-decoration: none;color:#2E2E2E;;padding:2px;margin:5px;}
+}
+
+nav{;display:block;}
+img{width: 80%;display:block;padding:10px;border:2px solid #050505;}
+	p{padding:10px;color:gray;}
+	h2{color:black;margin:5px;font-size: 20px;}
+aside { width: 25%; float: left; }
+.pub {
+	width: 100%; 
+	height: 150px;
+	background:#A0A3A3;
+	margin-bottom: 20px;
+	margin-top:5px;
+}
+.bg{width:100%;height:100px;background-color:black;float:right;}
+#detail #contenus{max-width:960px;margin: 0 auto 0 auto;}
+
+#detail section {
+	width: 75%;
+	float: left;
+}
+#detail img{width: 90%;display:block;}
+#detail aside { width: 25%; float: left;}
+#detail.bg{width:100%;height:100px;background-color:black;float:right;}
+#detail article {
+	width: 75%;
+	float: left;
+}
+#detail p{width:90%}
+#detail article aside {width:100% !important;display:block; }
+#diaporama img {
+	width: 24%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0.5%;
+}
